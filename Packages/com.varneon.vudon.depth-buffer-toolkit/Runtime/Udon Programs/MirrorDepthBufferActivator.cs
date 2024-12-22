@@ -20,7 +20,7 @@ namespace Varneon.VUdon.DepthBufferToolkit
 
                 if (camera != null)
                 {
-                    camera.depthTextureMode = DepthTextureMode.Depth;
+                    camera.depthTextureMode = UnityEngine.DepthTextureMode.Depth;
                 }
                 else { Debug.LogWarning($"{LOG_PREFIX} Failed to activate depth buffer! (Camera is null!)"); }
             }
